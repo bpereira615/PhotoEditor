@@ -1,0 +1,43 @@
+CS120 - Homework 6: Photo Editor
+2015-10-12
+
+Benjamin Gellman: bgellma1@jhu.edu
+Benjamin Hoertnagl-Pereira: bhoertn1@jhu.edu
+
+
+
+Photo Editor:
+This program allows users to manipulate .ppm files by:
+-cropping
+-inverting color
+-swapping channels
+-making grayscale
+-blurring
+-sharpening
+-adjusting contrast
+-mirroring image
+-toggling 90 degree left rotation of image
+
+
+
+Source Files:
+hw6.c - driver file with function call that runs the program
+ppmIO.c - contains functions used to handle input and output of ppm files
+menuUtil.c - contains functions that handle interaction with user and 
+  executing commmands on the given image
+imageManip.c - contains functions that manipulate the image in a desired way
+
+ppmIO.h - header file containing function declarations of ppmIO.c
+menuUtil.h - header file containing function declarations of menuUtil.c
+imageManip.h - header file containing function declarations of imageManip.c
+
+Makefile - used to compile, no unit tests written for the Makefile-testing was
+done manually
+mercurial.log- mercurial log file of commits
+
+
+
+Overall, this assignment was fair. The directions were very clear and easy
+to follow. Handling the image and storing its data in an array of pixel structs 
+was by far the most difficult aspect. Once we had the pixel array, writing the
+manipulating fuctions was straightforward.
