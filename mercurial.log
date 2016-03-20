@@ -1,0 +1,171 @@
+changeset:   33:c21d09814737
+tag:         tip
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Mon Oct 12 22:40:51 2015 -0400
+summary:     Final testing done, ready for submission
+
+changeset:   32:09fafcdb4946
+user:        bgellma1@bitbucket.org
+date:        Mon Oct 12 20:38:32 2015 -0400
+summary:     no errors or leaks detected, project seems ready to turn in
+
+changeset:   31:a96fcc4093f2
+user:        bgellma1@bitbucket.org
+date:        Mon Oct 12 19:08:43 2015 -0400
+summary:     mirror image function written, commented, working
+
+changeset:   30:54cac4f8b936
+user:        bgellma1@bitbucket.org
+date:        Mon Oct 12 18:56:10 2015 -0400
+summary:     seemingly no memory leaks or valgrind errors
+
+changeset:   29:a5884a5698a5
+user:        Benjamin Hoertnagl-Pereira <bhoertn1@jhu.edu>
+date:        Mon Oct 12 18:46:31 2015 +0000
+summary:     README edited online with Bitbucket
+
+changeset:   28:8f505a490a83
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Mon Oct 12 14:45:20 2015 -0400
+summary:     Extra function, mirrorImage, begun- currently segfaulting
+
+changeset:   27:f5aa3c38d57b
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Sun Oct 11 14:30:14 2015 -0400
+summary:     Fixed a few valgrind errors, memory leaks still present: expecting image freeing issue for blur and sharpen, freeing choice in menuUtils
+
+changeset:   26:c3c34717b0fe
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Fri Oct 09 22:06:03 2015 -0400
+summary:     Contrast function completed and commented, basic tests passed, additional testing needed
+
+changeset:   25:1b584c711dc4
+user:        bgellma1@bitbucket.org
+date:        Fri Oct 09 01:14:33 2015 -0400
+summary:     change brightness function written, commented, tested a couple of times
+
+changeset:   24:e1e6ad1bbc85
+user:        bgellma1@bitbucket.org
+date:        Fri Oct 09 00:53:08 2015 -0400
+summary:     sharpen function written, tested a couple times, and commented
+
+changeset:   23:536d8b873048
+user:        bgellma1@bitbucket.org
+date:        Fri Oct 09 00:11:20 2015 -0400
+summary:     blur and helper functions commented
+
+changeset:   22:047a06366e80
+user:        bgellma1@bitbucket.org
+date:        Thu Oct 08 23:50:10 2015 -0400
+summary:     BLUR FUNCTION WRITTEN AND WORKING though not substantially tested
+
+changeset:   21:da98ba4e5519
+user:        bgellma1@bitbucket.org
+date:        Thu Oct 08 01:55:47 2015 -0400
+summary:     have blur and blur's helper functions written but not debugged
+
+changeset:   20:7206b1eb9f96
+user:        bgellma1@bitbucket.org
+date:        Wed Oct 07 14:44:45 2015 -0400
+summary:     grayscale is written, commented, and somewhat tested
+
+changeset:   19:96d64a122508
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Mon Oct 05 21:46:54 2015 -0400
+summary:     Last minute changes, fixed crop bad input
+
+changeset:   18:5437c88cc60f
+user:        bgellma1@bitbucket.org
+date:        Mon Oct 05 11:42:26 2015 -0400
+summary:     no valgrind errors or memory leaks happening now
+
+changeset:   17:816efac42afb
+user:        bgellma1@bitbucket.org
+date:        Sun Oct 04 23:45:48 2015 -0400
+summary:     valgrind memory leaks fixed, ready submit
+
+changeset:   16:a86f24f967f8
+user:        bgellma1@bitbucket.org
+date:        Sun Oct 04 23:07:11 2015 -0400
+summary:     assignment completed, possible further testing
+
+changeset:   15:0151d2672770
+user:        bgellma1@bitbucket.org
+date:        Sun Oct 04 22:45:01 2015 -0400
+summary:     hw6.c completed, need to clean up bad input and continue testing
+
+changeset:   14:0c9cdc27839b
+user:        bgellma1@bitbucket.org
+date:        Sun Oct 04 21:37:22 2015 -0400
+summary:     swap function completed and commented, imageManip.h updated, crop and invert commented, testing still needed
+
+changeset:   13:92572044aff6
+user:        bgellma1@bitbucket.org
+date:        Sun Oct 04 21:13:36 2015 -0400
+summary:     crop and invert functions working, but not commented or tested extensively, imageManip.h updated
+
+changeset:   12:51731648e839
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Sun Oct 04 16:01:42 2015 -0400
+summary:     Starting imageManip.c
+
+changeset:   11:9db4b07a4289
+user:        bgellma1@bitbucket.org
+date:        Sun Oct 04 15:59:10 2015 -0400
+summary:     ppmIO.c working and commented, ppmIO.h updated, menuUtil.c updated and commented and working, menuUtil.h updated
+
+changeset:   10:ac4307de3c8b
+user:        Benjamin Hoertnagl-Pereira <bhoertn1@jhu.edu>
+date:        Sun Oct 04 15:07:38 2015 +0000
+summary:     README edited online with Bitbucket
+
+changeset:   9:151b53445f7d
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Sat Oct 03 19:00:46 2015 -0400
+summary:     Finished reading and writing of PPM file, tested on various ppm images
+
+changeset:   8:b48a9fa16263
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Sat Oct 03 17:28:09 2015 -0400
+summary:     code to read ppms to array of pixels is finished and working though not extensiely tested
+
+changeset:   7:a5198e82968b
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Fri Oct 02 21:44:54 2015 -0400
+summary:     Work on readImage, rough outline
+
+changeset:   6:38aab2d321bd
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Fri Oct 02 21:06:13 2015 -0400
+summary:     Fixed segfault, started writeImage
+
+changeset:   5:515c60ede7df
+user:        bgellma1@bitbucket.org
+date:        Fri Oct 02 17:07:34 2015 -0400
+summary:     started on ppmIO.c, getting segfault for undetermined reason
+
+changeset:   4:d2181e7116b4
+user:        bgellma1@bitbucket.org
+date:        Fri Oct 02 15:49:28 2015 -0400
+summary:     menuUtil works properly, is commented, and is mostly tested. menuUtil.h updated accordingly
+
+changeset:   3:324227a5c320
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Fri Oct 02 14:53:42 2015 -0400
+summary:     Problems with menu interface
+
+changeset:   2:3951fcfce2c9
+user:        Ben Pereira <bhoertn1@jhu.edu>
+date:        Fri Oct 02 14:15:10 2015 -0400
+summary:     Continuing work on menu interface
+
+changeset:   1:8bb3c16d8b95
+user:        bgellma1@bitbucket.org
+date:        Wed Sep 30 18:50:03 2015 -0400
+summary:     Started writing menu interface
+
+changeset:   0:eed265a1822e
+user:        Benjamin Hoertnagl-Pereira <bhoertn1@jhu.edu>
+date:        Tue Sep 29 00:50:14 2015 -0400
+summary:     Initial commit to start repository
+
